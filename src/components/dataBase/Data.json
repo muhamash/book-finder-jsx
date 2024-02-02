@@ -1,104 +1,112 @@
 [
     {
-        "name": "Js zero",
-        "author": "Ashraful",
+        "id": 1,
+        "name": "JavaScript Mastery",
+        "author": "John Doe",
         "price": 30,
         "image": "book.png"
     },
 
     {
-        "name": "Ts zero",
-        "author": "Md Ashraful",
+        "id": 2,
+        "name": "TypeScript Magic",
+        "author": "Jane Smith",
         "price": 34,
         "image": "book.png"
     },
 
     {
-        "name": "Js add",
-        "author": "Maher",
+        "id": 3,
+        "name": "Advanced JS",
+        "author": "Mark Johnson",
         "price": 23,
         "image": "book.png"
     },
 
     {
-        "name": "Py master",
-        "author": "Rakin",
+        "id": 4,
+        "name": "Python Wizardry",
+        "author": "Alice Brown",
         "price": 65,
         "image": "book.png"
     },
 
     {
-        "name": "React",
-        "author": "Rifat",
+        "id": 5,
+        "name": "React Unleashed",
+        "author": "Robert Turner",
         "price": 70,
         "image": "book.png"
     },
 
     {
-        "name": "JavaScript",
-        "author": "Emon",
+        "id": 6,
+        "name": "Mastering JavaScript",
+        "author": "Emma Evans",
         "price": 87,
         "image": "book.png"
     },
 
-
     {
-        "name": "Cpp",
-        "author": "Sezan Mahmud",
+        "id": 7,
+        "name": "C++ Essentials",
+        "author": "Samuel Mitchell",
         "price": 25,
         "image": "book.png"
     },
 
-
     {
-        "name": "Rust",
-        "author": "RustWriter",
+        "id": 8,
+        "name": "Rust Programming",
+        "author": "Rachel Williams",
         "price": 38,
         "image": "book.png"
     },
 
-
     {
-        "name": "Algorithm",
-        "author": "DataStructure",
+        "id": 9,
+        "name": "Algorithmic Adventures",
+        "author": "Daniel Davis",
         "price": 50,
         "image": "book.png"
     },
 
-
     {
-        "name": "Vue",
-        "author": "Rakib",
+        "id": 10,
+        "name": "Vue.js in Action",
+        "author": "Rebecca Rogers",
         "price": 20,
         "image": "book.png"
     },
 
-
     {
-        "name": "Angular",
-        "author": "Siam",
+        "id": 11,
+        "name": "Angular Power",
+        "author": "Steven Simmons",
         "price": 46,
         "image": "book.png"
     },
 
-
     {
-        "name": "Dot Net",
-        "author": "Inzamam",
+        "id": 12,
+        "name": ".NET Mastery",
+        "author": "Isabella Ingram",
         "price": 67,
         "image": "book.png"
     },
 
     {
-        "name": "name",
-        "author": "authorName",
+        "id": 13,
+        "name": "Coding Basics",
+        "author": "Coding Guru",
         "price": 30,
         "image": "book.png"
     },
 
     {
-        "name": "Node",
-        "author": "authorNameNode",
+        "id": 14,
+        "name": "Node.js Pro",
+        "author": "Node Master",
         "price": 30,
         "image": "book.png"
     }
