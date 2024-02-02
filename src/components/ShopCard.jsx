@@ -11,7 +11,7 @@ const ShopCard = ({name, author, price, image}) =>
     }
     
     return (
-        <div className="space-y-3">
+        <div className="space-y-3 hover:scale-105 transition-all duration-200 border-[1px] p-3 rounded-md bg-slate-400 bg-opacity-50">
             {/* <!-- thumbnail --> */ }
             <div
                 className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4"

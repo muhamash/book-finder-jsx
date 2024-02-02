@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const SelectField = ({onSortChange}) =>
 {
     const handleSort = ( event ) =>
@@ -17,8 +18,8 @@ const SelectField = ({onSortChange}) =>
                 <option value="">Sort</option>
                 <option value="name_asc">Name (A-Z)</option>
                 <option value="name_desc">Name (Z-A)</option>
-                {/* <option value="year_asc">Publication Year (Oldest)</option>
-                <option value="year_desc">Publication Year (Newest)</option> */}
+                <option value="price_low_high">Price low high</option>
+                <option value="price_high_low">Price high low</option>
             </select>
         </>
     );
