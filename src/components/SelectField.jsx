@@ -4,7 +4,7 @@ const SelectField = () =>
         <>
             {/* <!-- Sort --> */}
             <select
-                className="cursor-pointer rounded-md border px-4 py-2 text-center text-gray-600"
+                className="cursor-pointer rounded-md border px-4 py-2 text-center text-gray-900 bg-cyan-600"
                 name="sortBy"
                 id="sortBy"
             >
