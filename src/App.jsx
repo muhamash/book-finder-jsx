@@ -74,6 +74,14 @@ const App = () =>
     <div className='relative font-[Manrope] before:fixed before:left-0 before:top-0 before:-z-10 before:h-[435px] before:w-full before:rounded-bl-3xl before:bg-[#EAE6D7] max-md:px-4 lg:text-lg before:lg:rounded-bl-[79px] px-3'>
       <div className='py-6'>
         <Nav />
+        {/* <div className='container mx-auto flex items-center justify-between gap-x-6 max-w-7xl'>
+            <div>
+                <img className="h-[40px] cursor-pointer" src="lws.svg" alt="logo?" />
+            </div>
+            <div>
+                <img className="h-[40px] cursor-pointer" src="notification.svg" alt="logo?" />
+            </div>
+        </div> */}
       </div>
       <div className='my-10 lg:my-14 py-[10px]'>
         <div className='mb-8 lg:mb-10 mx-auto max-w-7xl'>
