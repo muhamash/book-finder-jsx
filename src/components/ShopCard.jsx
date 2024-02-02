@@ -1,20 +1,28 @@
+import React, { useState } from "react";
+
 const ShopCard = () =>
 {
+    const [ fav, setFav ] = useState( false )
+    const handleToggleFav = () =>
+    {
+        setFav(prevFav => !prevFav)
+    }
+    
     return (
         <div className="space-y-3">
-            {/* <!-- thumbnail --> */}
+            {/* <!-- thumbnail --> */ }
             <div
                 className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4"
             >
                 <img className="max-w-[144px]" src="book.png" alt="book name" />
             </div>
-            {/* <!-- info --> */}
+            {/* <!-- info --> */ }
             <div className="space-y-3">
                 <h4 className="text-lg font-bold lg:text-xl">JavaScript and Jquery</h4>
                 <p className="text-xs lg:text-sm">By : <span>Jon Duckett</span></p>
                 <div className="flex items-center justify-between">
                     <h4 className="text-lg font-bold lg:text-xl">$62</h4>
-                    {/* <!-- stars --> */}
+                    {/* <!-- stars --> */ }
                     <div className="flex items-center space-x-1">
                         <img src="star.svg" />
                         <img src="star.svg" />
@@ -23,7 +31,7 @@ const ShopCard = () =>
 
                         <span className="text-xs lg:text-sm">(4 Star)</span>
                     </div>
-                    {/* <!-- stars ends --> */}
+                    {/* <!-- stars ends --> */ }
                 </div>
 
                 <div className="flex items-center gap-3 text-xs lg:text-sm">
@@ -48,7 +56,9 @@ const ShopCard = () =>
                         Add to Cart
                     </button>
                     <button
-                        className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#DC2954]/[14%] py-1.5 text-[#DC2954] transition-all hover:bg-[#DC2954]/[24%] lg:py-1.5"
+                        className={ `border-[1px] transition-all duration-200 flex min-w-[132px] items-center justify-center gap-1 rounded-md ${fav ? 'bg-[#DC2954]/[14%] text-[#DC2954] hover:bg-[#DC2954]/[24%]' : ''
+                            } py-1.5 lg:py-1.5 shadow-sm` }
+                        onClick={ handleToggleFav }
                     >
                         <svg
                             width="16"
@@ -59,7 +69,7 @@ const ShopCard = () =>
                         >
                             <path
                                 d="M18.0001 10.572L10.5001 18L3.00006 10.572C2.50536 10.0906 2.1157 9.51202 1.8556 8.87264C1.59551 8.23326 1.47062 7.54695 1.48879 6.85693C1.50697 6.16692 1.66782 5.48814 1.96121 4.86334C2.25461 4.23854 2.67419 3.68126 3.19354 3.22658C3.71289 2.77191 4.32076 2.42969 4.97887 2.22148C5.63697 2.01327 6.33106 1.94359 7.01743 2.0168C7.70379 2.09002 8.36756 2.30456 8.96693 2.64691C9.56631 2.98926 10.0883 3.452 10.5001 4.006C10.9136 3.45602 11.4362 2.99732 12.0352 2.65861C12.6341 2.31989 13.2966 2.10845 13.981 2.03752C14.6654 1.96659 15.3571 2.0377 16.0128 2.24639C16.6685 2.45509 17.2741 2.79687 17.7916 3.25036C18.3091 3.70386 18.7275 4.25929 19.0205 4.88189C19.3135 5.5045 19.4748 6.18088 19.4944 6.86871C19.5139 7.55653 19.3913 8.24099 19.1342 8.87925C18.8771 9.51751 18.491 10.0958 18.0001 10.578"
-                                fill="#DC2954"
+                                fill={`${fav? '#DC2954': 'white'}`}
                             />
                             <path
                                 d="M18.0001 10.572L10.5001 18L3.00006 10.572C2.50536 10.0906 2.1157 9.51202 1.8556 8.87264C1.59551 8.23326 1.47062 7.54695 1.48879 6.85693C1.50697 6.16692 1.66782 5.48814 1.96121 4.86334C2.25461 4.23854 2.67419 3.68126 3.19354 3.22658C3.71289 2.77191 4.32076 2.42969 4.97887 2.22148C5.63697 2.01327 6.33106 1.94359 7.01743 2.0168C7.70379 2.09002 8.36756 2.30456 8.96693 2.64691C9.56631 2.98926 10.0883 3.452 10.5001 4.006C10.9136 3.45602 11.4362 2.99732 12.0352 2.65861C12.6341 2.31989 13.2966 2.10845 13.981 2.03752C14.6654 1.96659 15.3571 2.0377 16.0128 2.24639C16.6685 2.45509 17.2741 2.79687 17.7916 3.25036C18.3091 3.70386 18.7275 4.25929 19.0205 4.88189C19.3135 5.5045 19.4748 6.18088 19.4944 6.86871C19.5139 7.55653 19.3913 8.24099 19.1342 8.87925C18.8771 9.51751 18.491 10.0958 18.0001 10.578"
@@ -69,7 +79,6 @@ const ShopCard = () =>
                                 strokeLinejoin="round"
                             />
                         </svg>
-
                         Favourite
                     </button>
                 </div>

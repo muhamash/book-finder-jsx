@@ -36,18 +36,11 @@ function App() {
         <ShopCard/>
         <ShopCard/>
         <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
-        <ShopCard/>
+        
       </div>
 
       {/* footer */ }
-      <div>
+      <div className='pt-20'>
         <Footer/>
       </div>
     </div>
