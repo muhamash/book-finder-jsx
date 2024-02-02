@@ -15,6 +15,9 @@ const useFilterAndSort = (initialData) => {
     sortItems: '',
   } )
 
+  console.log( state )
+  console.log(data)
+
   const handleSort = ( sort ) =>
   {
     setState( ( prevState ) => ( {
