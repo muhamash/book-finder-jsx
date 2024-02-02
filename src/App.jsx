@@ -25,11 +25,11 @@ function App() {
           <div className='mx-auto flex items-end justify-between max-md:max-w-[95%] max-md:flex-col max-md:items-start max-md:space-y-4'>
             <div>
               <HeaderTitle />
-              <SearchField/>
+              <SearchField onSearchSubmit={""}/>
             </div>
             {/* select items for sorting */ }
             <div className='flex items-stretch space-x-3'>
-              <SelectField/>
+              <SelectField onSortChange={""}/>
             </div>
           </div>
         </div>
