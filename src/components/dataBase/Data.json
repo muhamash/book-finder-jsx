@@ -1,0 +1,105 @@
+[
+    {
+        "name": "Js zero",
+        "author": "Ashraful",
+        "price": 30,
+        "image": "book.png"
+    },
+
+    {
+        "name": "Ts zero",
+        "author": "Md Ashraful",
+        "price": 34,
+        "image": "book.png"
+    },
+
+    {
+        "name": "Js add",
+        "author": "Maher",
+        "price": 23,
+        "image": "book.png"
+    },
+
+    {
+        "name": "Py master",
+        "author": "Rakin",
+        "price": 65,
+        "image": "book.png"
+    },
+
+    {
+        "name": "React",
+        "author": "Rifat",
+        "price": 70,
+        "image": "book.png"
+    },
+
+    {
+        "name": "JavaScript",
+        "author": "Emon",
+        "price": 87,
+        "image": "book.png"
+    },
+
+
+    {
+        "name": "Cpp",
+        "author": "Sezan Mahmud",
+        "price": 25,
+        "image": "book.png"
+    },
+
+
+    {
+        "name": "Rust",
+        "author": "RustWriter",
+        "price": 38,
+        "image": "book.png"
+    },
+
+
+    {
+        "name": "Algorithm",
+        "author": "DataStructure",
+        "price": 50,
+        "image": "book.png"
+    },
+
+
+    {
+        "name": "Vue",
+        "author": "Rakib",
+        "price": 20,
+        "image": "book.png"
+    },
+
+
+    {
+        "name": "Angular",
+        "author": "Siam",
+        "price": 46,
+        "image": "book.png"
+    },
+
+
+    {
+        "name": "Dot Net",
+        "author": "Inzamam",
+        "price": 67,
+        "image": "book.png"
+    },
+
+    {
+        "name": "name",
+        "author": "authorName",
+        "price": 30,
+        "image": "book.png"
+    },
+
+    {
+        "name": "Node",
+        "author": "authorNameNode",
+        "price": 300,
+        "image": "book.png"
+    }
+]

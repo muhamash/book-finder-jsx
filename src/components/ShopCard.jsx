@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
-const ShopCard = () =>
+const ShopCard = ({name, author, price, image}) =>
 {
     const [ fav, setFav ] = useState( false )
     const handleToggleFav = () =>
@@ -14,14 +15,14 @@ const ShopCard = () =>
             <div
                 className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4"
             >
-                <img className="max-w-[144px]" src="book.png" alt="book name" />
+                <img className="max-w-[144px]" src={image} alt="book name" />
             </div>
             {/* <!-- info --> */ }
             <div className="space-y-3">
-                <h4 className="text-lg font-bold lg:text-xl">JavaScript and Jquery</h4>
-                <p className="text-xs lg:text-sm">By : <span>Jon Duckett</span></p>
+                <h4 className="text-lg font-bold lg:text-xl">{ name }</h4>
+                <p className="text-xs lg:text-sm">By : <span>{ author }</span></p>
                 <div className="flex items-center justify-between">
-                    <h4 className="text-lg font-bold lg:text-xl">$62</h4>
+                    <h4 className="text-lg font-bold lg:text-xl">${ price }</h4>
                     {/* <!-- stars --> */ }
                     <div className="flex items-center space-x-1">
                         <img src="star.svg" />
