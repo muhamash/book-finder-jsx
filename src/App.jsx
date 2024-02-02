@@ -55,7 +55,7 @@ const useFilterAndSort = (initialData) => {
           return b.price - a.price;
         }
         
-        return 0
+        return 0;
       } )
   };
 
