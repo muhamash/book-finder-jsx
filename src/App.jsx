@@ -32,7 +32,7 @@ function App() {
 
       {/* shop cards */ }
       <div>
-
+        
       </div>
 
       {/* footer */ }
