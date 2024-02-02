@@ -6,7 +6,7 @@ const ShopCard = () =>
             <div
                 className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4"
             >
-                <img className="max-w-[144px]" src="./assets/book.png" alt="book name" />
+                <img className="max-w-[144px]" src="book.png" alt="book name" />
             </div>
             {/* <!-- info --> */}
             <div className="space-y-3">

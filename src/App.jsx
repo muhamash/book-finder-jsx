@@ -4,6 +4,7 @@ import HeaderTitle from './components/HeaderTitle';
 import Nav from './components/Nav';
 import SearchField from './components/SearchField';
 import SelectField from './components/SelectField';
+import ShopCard from './components/ShopCard';
 
 function App() {
   return (
@@ -31,8 +32,18 @@ function App() {
       </div>
 
       {/* shop cards */ }
-      <div>
-        
+      <div className='container mx-auto grid grid-cols-1 gap-8 max-w-7xl md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
+        <ShopCard/>
       </div>
 
       {/* footer */ }
