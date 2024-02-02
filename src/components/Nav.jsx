@@ -1,6 +1,6 @@
 const Nav = () => {
     return (
-        <div className='container mx-auto flex items-center justify-between gap-x-6'>
+        <div className='flex items-center justify-between mx-auto w-[68%]'>
             <div>
                 <img className="h-[40px] cursor-pointer" src="lws.svg" alt="logo?" />
             </div>

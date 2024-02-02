@@ -99,7 +99,7 @@
     {
         "name": "Node",
         "author": "authorNameNode",
-        "price": 300,
+        "price": 30,
         "image": "book.png"
     }
 ]

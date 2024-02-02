@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
@@ -57,7 +58,7 @@ const ShopCard = ({name, author, price, image}) =>
                         Add to Cart
                     </button>
                     <button
-                        className={ `border-[1px] transition-all duration-200 flex min-w-[132px] items-center justify-center gap-1 rounded-md ${fav ? 'bg-[#DC2954]/[14%] text-[#DC2954] hover:bg-[#DC2954]/[24%]' : ''
+                        className={ `border-[1px] transition-all duration-200 flex min-w-[132px] items-center justify-center gap-1 rounded-md ${fav ? 'bg-[#DC2954]/[14%] text-[#DC2954]' : ' hover:bg-[#DC2954]/[24%] bg-slate-200 bg-opacity-50'
                             } py-1.5 lg:py-1.5 shadow-sm` }
                         onClick={ handleToggleFav }
                     >
