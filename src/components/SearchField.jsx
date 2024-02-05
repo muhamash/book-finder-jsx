@@ -8,6 +8,7 @@ const Search = ({ onSearchSubmit }) =>
     const handleSearchChange = ( event ) =>
     {
         setSearchTerm( event.target.value );
+        onSearchSubmit( event.target.value );
     };
 
     const handleSubmit = ( event ) =>
@@ -15,6 +16,7 @@ const Search = ({ onSearchSubmit }) =>
         event.preventDefault();
         onSearchSubmit( searchTerm );
     };
+
     return (
         <>
             {/* <!-- Search Box --> */ }

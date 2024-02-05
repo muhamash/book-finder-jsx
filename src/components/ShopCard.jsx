@@ -81,7 +81,7 @@ const ShopCard = ({name, author, price, image}) =>
                                 strokeLinejoin="round"
                             />
                         </svg>
-                        Favourite
+                        Favorite
                     </button>
                 </div>
             </div>
